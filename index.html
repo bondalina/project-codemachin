@@ -26,45 +26,68 @@
   </head>
   <body>
     <!-- Sign up -->
-    <div class="section">
-      <div class="container">
-        <h1 class="section-title">Sign <span class="accent">up</span></h1>
-        <p class="section-text">
-          Please use the form below to contact us. Enter your name, email, and
-          message and we'll get back to you shortly.
-        </p>
-        <form class="form-sign-up">
-          <input
-            class="form-input-sign-up"
-            type="text"
-            name="username"
-            id="username"
-            placeholder="Enter your name"
-          />
-          <label class="form-label-sign-up" for="username"></label>
+    <div class="section section-sign-up">
+      <div class="container sign-up-wraper">
+        <div class="sign-up-block">
+          <h2 class="section-title">Sign <span class="accent">up</span></h2>
+          <p class="section-text">
+            Please use the form below to contact us. Enter your name, email, and
+            message and we'll get back to you shortly.
+          </p>
+          <form class="form-sign-up">
+            <input
+              class="form-input-sign-up"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter your name"
+            />
+            <label class="form-label-sign-up" for="username"></label>
 
-          <input
-            class="form-input-sign-up"
-            type="email"
-            name="useremail"
-            id="useremail"
-            placeholder="Enter your email"
-          />
-          <label class="form-label-sign-up" for="useremail"></label>
+            <input
+              class="form-input-sign-up"
+              type="email"
+              name="useremail"
+              id="useremail"
+              placeholder="Enter your email"
+            />
+            <label class="form-label-sign-up" for="useremail"></label>
 
-          <label class="form-label-sign-up" for="username"></label>
-          <textarea class="textarea-sign-up">
-       
-            name="message"
-            placeholder="Message"
-          </textarea>
+            <textarea
+              class="textarea-sign-up"
+              name="feedback"
+              placeholder="Message"
+            >
+            </textarea>
+            <label class="label-textarea-sign-up" for="feedback"></label>
 
-          <button type="submit">Send</button>
-        </form>
-        <p class="Policy-text">
-          By clicking on “Send” button, you agree to our Privacy Policy, and
-          allow Promodo to use this information for marketing purposes.
-        </p>
+            <button class="sign-up-btn" type="submit">Send</button>
+
+            <p class="policy-text">
+              By clicking on “Send” button, you agree to our
+              <a class="privicy-policy" href="#">Privacy Policy</a>, and allow
+              Promodo to use this information for marketing purposes.
+            </p>
+          </form>
+        </div>
+        <div class="sign-up-img-block">
+          <div class="image-lens-wraper">
+            <img
+              class="sign-up-image-lens"
+              srcset="./images/isabella-mendes-lRgkUlxJCkA-unsplash 1.png 1x, ./images/isabella-mendes-lRgkUlxJCkA-unsplash 1.png 2x"
+              src="./images/isabella-mendes-lRgkUlxJCkA-unsplash 1.png"
+              alt="Photographic lens"
+            />
+          </div>
+          <div class="image-camera-wraper">
+            <img
+              class="sign-up-image-camera"
+              srcset="./images/video-entry-product 1.png 1x, ./images/video-entry-product 1.png 2x"
+              src="./images/video-entry-product 1.png"
+              alt="Video camera"
+            />
+          </div>
+        </div>
       </div>
     </div>
     <!--Footer-->
