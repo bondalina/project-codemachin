@@ -65,6 +65,7 @@ img {
   width: 375px;
   padding: 0 20px 0 20px;
 }
+
 .section-title {
   font-size: 28px;
   font-weight: 500;
@@ -183,9 +184,8 @@ span.accent {
 .sign-up-image-lens {
   position: absolute;
   top: 76px;
-  left: 19px;
-  width: 150px;
-  height: 142px;
+  right: 28px;
+  object-fit: cover;
 }
 .image-camera-wraper {
   position: relative;
@@ -197,7 +197,6 @@ span.accent {
 .sign-up-image-camera {
   position: absolute;
   width: 240px;
-  height: 296px;
   top: 156px;
   left: 50px;
 }
@@ -238,6 +237,9 @@ span.accent {
     font-size: 18px;
   }
   .policy-text {
+    font-size: 14px;
+  }
+  .privicy-policy {
     font-size: 14px;
   }
 }
